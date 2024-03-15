@@ -1,0 +1,139 @@
+
+@media screen and (max-width:991px) {
+         .main{
+           width: 100%;
+           height: auto;
+         }
+    .nav-info{
+        display: none;
+    }
+    .ico-text  i{
+       display: none;
+    }
+    .ico-text input{
+         margin-bottom: 10px;
+         padding: 0 60px;
+         border-radius: 30px;
+    }
+    .ico-text select{
+        padding: 5px 60px;
+        border-radius: 30px;
+    }
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ico-text{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .child-container{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .info-boxes{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .info-box{
+      width: 100%;
+      height: 20vh;
+      text-align: center;
+    }
+    .info-box2{
+      width: 100%;
+      height: 20vh;
+      text-align: center;
+    }
+    .info-box3{
+      width: 100%;
+      height: 20vh;
+      text-align: center;
+    }
+    .info-box4{
+      width: 100%;
+      height: 20vh;
+      text-align: center;
+    }
+    .info-text{
+      text-align: center;
+    }
+    .diveder{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .container{
+      padding:25px 8%;
+    }
+    .nav-ico{
+      display: inline;
+    }
+    .nav-icons{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+}
+@media screen and (max-width:600px) {
+  .main {
+      width: 100%;
+      height: auto;
+  }
+  .nav-info{
+      display: none;
+  }
+  .container{
+      padding: 20px 7%;
+  }
+  .ico-text{
+    flex-direction: column;
+  }
+  .ico-text i{
+     display: none;
+  }
+  .ico-text input{
+     display: none;
+  }
+  .ico-text select{
+      display: none;
+  }
+  .main-text{
+      h1{
+          font-size: 3rem;
+      }
+      h3{
+          font-size: 1rem;
+      }
+  }
+.info-boxes{
+    grid-template-columns: 1fr ;
+}
+.info-box{
+  width: 100%;
+  text-align: center;
+}
+.info-box2{
+  width: 100%;
+  text-align: center;
+}
+.info-box3{
+  width: 100%;
+  text-align: center;
+}
+.info-box4{
+  width: 100%;
+  text-align: center;
+}
+
+.info-text{
+  text-align: center;
+}
+.diveder{
+  flex-direction: column;
+  gap: 20px;
+}
+
+}

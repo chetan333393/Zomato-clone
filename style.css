@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    padding: 25px 14%;
+    overflow: hidden;
+}
+div{
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    overflow: hidden;
+    width: 100%;
+    height: 65vh;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-ico{
+    display: none;
+}
+.navbar {
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.ul-info {
+    gap: 40px;
+}
+
+.main-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main-text h1 {
+    color: white;
+    font-size: 5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.main-text h3 {
+    font-size: 2.30rem;
+    padding-block: 10px;
+    color: white;
+}
+
+.ico-text {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.ico-text i {
+    background-color: white;
+    color: rgb(124, 128, 124);
+    padding: 16px 10px;
+    border: none;
+}
+
+.ico-text select {
+    height: 3rem;
+    width: 400px;
+    border: none;
+}
+
+.ico-text input {
+    height: 3rem;
+    width: 400px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.left-align::placeholder {
+    text-align: left;
+    color: gray;
+    /* Change the color */
+    font-style: italic;
+}
+
+.ico-1 {
+    border-radius: 10px 0 0 10px;
+}
+
+.hero-child {
+    padding-block: 30px;
+}
+
+.child-img img {
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.child-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.child-text {
+    padding: 20px 10px;
+}
+
+.child-text h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.child-text p {
+    color: rgb(69, 162, 69);
+}
+
+.hero-child1 {
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 8px;
+}
+
+.hero-child1:hover {
+    transform: scale(1.10);
+    transition: -4s ease-in-out;
+}
+
+.child-container:hover {
+    gap: 30px;
+}
+.info-box{
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    width: 15rem;
+    height: 300px;
+    background-image: url("https://www.lushome.com/wp-content/uploads/2014/05/food-decoration-design-ideas-11.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.demo{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.70;
+    border-radius: 10px;
+}
+.box-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: calc(0% - -3%);
+    left: 5%;
+    gap: 7px;
+    font-size: 17px;
+}
+.box-text i{
+    margin-left: 5px;
+}
+.info-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px;
+}
+.info-text h3{
+    font-size: 2.50rem;
+    margin-bottom: 10px;
+}
+.diveder{
+    justify-content: space-between;
+}
+.info-box2{
+    position: relative;
+    max-width: 100%;
+    width: 15rem;
+    height: 300px;
+    background-image: url("https://hips.hearstapps.com/edc.h-cdn.co/assets/16/12/1458928850-david-prince.jpg?crop=0.872xw:1.00xh;0.00510xw,0&resize=980:*");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.info-box2{
+    position: relative;
+    max-width: 100%;
+    width: 15rem;
+    height: 300px;
+    background-image: url("https://hips.hearstapps.com/edc.h-cdn.co/assets/16/12/1458928850-david-prince.jpg?crop=0.872xw:1.00xh;0.00510xw,0&resize=980:*");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.info-box3{
+    position: relative;
+    max-width: 100%;
+    width: 15rem;
+    height: 300px;
+    background-image: url("https://www.lushome.com/wp-content/uploads/2013/10/food-art-decoration-ideas-8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.info-box4{
+    position: relative;
+    max-width: 100%;
+    width: 15rem;
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvUfALxR0Re6WvenDu3tyQQmuPq3EGx6g68Q&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.info-boxes{
+    width: 100%;
+}
+
+
